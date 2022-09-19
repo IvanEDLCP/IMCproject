@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: #17202A;
+    font-family: 'Open sans';
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background: #212F3D;
+    padding: 20px;
+}
+
+.contenedor-titulo{
+    text-align: center;
+}
+
+.contenedor-formulario{
+    margin-top: 20px;
+}
+
+.contenedor-formulario__input{
+    background: #17202A;
+    border-style: none;
+    height: 20px;
+    border-radius: 5px;
+    font-family: 'Open sans';
+    color: white;
+    text-align: center;
+}
+
+.contenedor-formulario__input:focus{
+    outline: 1px solid white;
+}
+
+.contenedor-formulario__boton{
+    margin-top: 15px;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 55px;
+    background: #212F3D;
+    font-family: inherit;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.contenedor-formulario__boton:hover{
+    box-shadow: 3px 3px 10px #17202A;
+}
+
+.contenedor-respuesta{
+    margin-top: 20px;
+    text-align: center;
+}
